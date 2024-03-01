@@ -1,0 +1,58 @@
+/* Customer.css */
+
+.customer-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .customer-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  .details {
+    margin-top: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  label {
+    margin-bottom: 8px;
+    color: red;
+  }
+ 
+  
+  .input-box {
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .customer-care-details {
+    margin-top: 20px;
+    text-transform: capitalize;
+  }
+  
+  .customer-care-details p, .customer-care-details h1, .customer-care-details label {
+    margin-bottom: 10px;
+   
+  }
+  

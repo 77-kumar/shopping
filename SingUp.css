@@ -1,0 +1,36 @@
+.card{
+    width:300px;
+    border: 1px solid pink;
+    box-shadow: 0 0 10px rgba(219, 133, 201, 0.829);
+    padding: 50px;
+    margin: 3rem auto;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: chocolate;
+    text-decoration: solid;
+    text-transform: capitalize;
+}
+input{
+    width:100%;
+    box-sizing: border-box;
+    padding:10px;
+    border: 1px solid rgb(240, 101, 124);
+    box-shadow:  5px solid rgb(240, 101, 124);
+    border-radius: 10px;
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 10px;
+}
+button{
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}

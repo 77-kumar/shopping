@@ -1,0 +1,63 @@
+label{
+    display:block;
+    margin-bottom: 5px;
+    color: rgb(241, 150, 13);
+    margin-top: 10px;
+    text-decoration:solid;
+}
+input{
+    width:100%;
+    box-sizing: border-box;
+    padding:10px;
+    border: 1px solid rgb(240, 101, 124);
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+input[type='submit']{
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card-from{
+    margin-bottom: 15px;
+}
+.card{
+    width:300px;
+    border: 1px solid pink;
+    box-shadow: 0 0 10px rgba(219, 133, 201, 0.829);
+    padding: 50px;
+    margin: 3rem auto;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+}
+img{
+    width:100px;
+    text-align: center;
+    justify-content: center;
+    margin: 10px auto;
+    border-radius: 50px;
+    display:flex;
+}
+.extra{
+    display: inline-block;
+    margin: 10px;
+}
+.forget{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.3 rem;
+    text-transform: capitalize;
+    color: darkslategrey;
+    cursor: pointer;
+    padding: 10px 0;
+}
+.sing{
+    
+    padding-top:20px;
+    color: blue;
+    text-transform: capitalize;
+    text-decoration:underline;
+    cursor: pointer;
+}

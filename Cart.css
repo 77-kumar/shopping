@@ -1,0 +1,102 @@
+/* Cart.css */
+
+.cart {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cardItem {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cartItems {
+  width: 300px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.product-price {
+  font-size: 14px;
+  color: #555;
+}
+
+.CountHandler {
+  display: flex;
+  align-items: center;
+}
+
+.CountHandler button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.CountHandler input {
+  width: 40px;
+  text-align: center;
+  margin: 0 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkOut {
+  margin-top: auto; /* Push to the bottom */
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+  border-radius: 15px;
+  background-color: black;
+  width: 100%;
+}
+.checkOut p{
+  color: whitesmoke;
+}
+.checkOut button{
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px rgb(244, 244, 247);
+  border: 1px solid rgb(243, 243, 247);
+  color: black;
+  background-color: white;
+}
+.checkOut button:hover{
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px rgb(7, 7, 231);
+  border: 1px solid rgb(11, 11, 233);
+  color:white;
+  background-color: blue;
+
+  
+}
